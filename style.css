@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b0d10;
+    color: #ffffff;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+    height: 80px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #24272c;
+    background: #0b0d10;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: #d7ff3f;
+}
+
