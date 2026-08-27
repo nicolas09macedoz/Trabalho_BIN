@@ -1,52 +1,288 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="sport,basketball,futbol,tenis,swimming,news"> 
+
+    <title>SportZone - Notícias Esportivas</title>
+
+    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
-    <title>!SportZone - O poder do esporte 🏆</title>
 </head>
-<body>
-    <header>
 
+<body>
+
+    <header>
         <div class="logo">
-            SPORT<span>ZONE</span>
+            <span>SPORT</span>ZONE
         </div>
 
         <nav>
-            <a href="">Inicio</a>
-            <a href="">Esportes</a>
-            <a href="">Cultura</a>
-            <a href="">Pessoas</a>
-            <a href="">História</a>
-            <a href="">Sociedade</a>
+            <a href="#inicio">Início</a>
+            <a href="#esportes">Esportes</a>
+            <a href="#noticias">Notícias</a>
+            <a href="#jogadores">Jogadores</a>
+            <a href="#historia">História</a>
         </nav>
-
     </header>
 
-
     <main>
-        <section class="hero" id="inicio"></section>
-            
-            <div class="hero-txt">
 
-                <p class="mini-titulo">MUITO ALÉM DO JOGO</p>
+        <section class="hero" id="inicio">
+
+            <div class="hero-text">
+                <p class="categoria">DESTAQUE DO DIA</p>
 
                 <h1>
-                    O esporte
-                    <span>transforma</span>
+                    O mundo dos
+                    <span>esportes</span>
+                    em um só lugar.
                 </h1>
+
+                <p>
+                    Notícias, grandes atletas, curiosidades e a história
+                    dos esportes que fazem milhões de pessoas vibrar.
+                </p>
+
+                <a href="#noticias" class="botao">VER NOTÍCIAS</a>
+            </div>
+
+            <div class="hero-card">
+                <div class="bola">🏀</div>
+                <p>PAIXÃO PELO ESPORTE</p>
+                <h2>Jogue.<br>Supere.<br>Vença.</h2>
+            </div>
+
+        </section>
+
+
+        <section class="esportes" id="esportes">
+
+            <div class="titulo">
+                <p>MODALIDADES</p>
+                <h2>Explore os esportes</h2>
+            </div>
+
+            <div class="esportes-grid">
+
+                <div class="esporte-card futebol">
+                    <div class="icone">⚽</div>
+                    <h3>Futebol</h3>
+                    <p>O esporte mais popular do mundo.</p>
+                </div>
+
+                <div class="esporte-card basquete">
+                    <div class="icone">🏀</div>
+                    <h3>Basquete</h3>
+                    <p>Velocidade, habilidade e muita emoção.</p>
+                </div>
+
+                <div class="esporte-card volei">
+                    <div class="icone">🏐</div>
+                    <h3>Vôlei</h3>
+                    <p>Trabalho em equipe dentro da quadra.</p>
+                </div>
+
+                <div class="esporte-card formula">
+                    <div class="icone">🏎️</div>
+                    <h3>Fórmula 1</h3>
+                    <p>Velocidade e tecnologia nas pistas.</p>
+                </div>
 
             </div>
 
+        </section>
+
+
+        <section class="noticias" id="noticias">
+
+            <div class="titulo">
+                <p>ATUALIZAÇÕES</p>
+                <h2>Últimas notícias</h2>
+            </div>
+
+            <div class="noticias-grid">
+
+                <article class="noticia destaque">
+                    <div class="noticia-imagem futebol-img">
+                        <span>FUTEBOL</span>
+                    </div>
+
+                    <div class="noticia-conteudo">
+                        <small>27 AGO 2026</small>
+                        <h3>
+                            Grandes novidades movimentam o mundo do futebol
+                        </h3>
+                        <p>
+                            Confira as principais informações e acontecimentos
+                            do mundo da bola.
+                        </p>
+                        <a href="#">LER MAIS →</a>
+                    </div>
+                </article>
+
+
+                <article class="noticia">
+                    <div class="noticia-imagem basket-img">
+                        <span>BASQUETE</span>
+                    </div>
+
+                    <div class="noticia-conteudo">
+                        <small>26 AGO 2026</small>
+                        <h3>
+                            A nova geração que está brilhando nas quadras
+                        </h3>
+                        <a href="#">LER MAIS →</a>
+                    </div>
+                </article>
+
+
+                <article class="noticia">
+                    <div class="noticia-imagem f1-img">
+                        <span>FÓRMULA 1</span>
+                    </div>
+
+                    <div class="noticia-conteudo">
+                        <small>25 AGO 2026</small>
+                        <h3>
+                            Velocidade máxima: confira as novidades da F1
+                        </h3>
+                        <a href="#">LER MAIS →</a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="jogadores" id="jogadores">
+
+            <div class="titulo">
+                <p>ÍDOLOS DO ESPORTE</p>
+                <h2>Grandes jogadores</h2>
+            </div>
+
+            <div class="jogadores-grid">
+
+                <div class="jogador">
+                    <div class="jogador-foto jogador1">
+                        <span>01</span>
+                    </div>
+
+                    <div class="jogador-info">
+                        <p>BASQUETE</p>
+                        <h3>Michael Jordan</h3>
+                        <span>Chicago Bulls</span>
+                    </div>
+                </div>
+
+
+                <div class="jogador">
+                    <div class="jogador-foto jogador2">
+                        <span>02</span>
+                    </div>
+
+                    <div class="jogador-info">
+                        <p>FUTEBOL</p>
+                        <h3>Pelé</h3>
+                        <span>Brasil</span>
+                    </div>
+                </div>
+
+
+                <div class="jogador">
+                    <div class="jogador-foto jogador3">
+                        <span>03</span>
+                    </div>
+
+                    <div class="jogador-info">
+                        <p>FUTEBOL</p>
+                        <h3>Lionel Messi</h3>
+                        <span>Argentina</span>
+                    </div>
+                </div>
+
+
+                <div class="jogador">
+                    <div class="jogador-foto jogador4">
+                        <span>04</span>
+                    </div>
+
+                    <div class="jogador-info">
+                        <p>BASQUETE</p>
+                        <h3>LeBron James</h3>
+                        <span>NBA</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="historia" id="historia">
+
+            <div class="historia-texto">
+
+                <p>DESDE O COMEÇO</p>
+
+                <h2>
+                    A história por trás
+                    dos grandes esportes.
+                </h2>
+
+                <p>
+                    O esporte acompanha a humanidade há milhares de anos.
+                    Desde as antigas competições até os grandes eventos
+                    atuais, ele se tornou uma parte importante da cultura
+                    de diferentes países.
+                </p>
+
+                <p>
+                    Mais do que competição, o esporte representa disciplina,
+                    dedicação, trabalho em equipe e superação.
+                </p>
+
+            </div>
+
+            <div class="historia-numero">
+                <strong>01</strong>
+                <span>HISTÓRIA</span>
+            </div>
+
+        </section>
 
     </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            SPORT<span>ZONE</span>
+        </div>
+
+        <p>
+            Informação, história e paixão pelo esporte.
+        </p>
+
+        <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#esportes">Esportes</a>
+            <a href="#noticias">Notícias</a>
+            <a href="#jogadores">Jogadores</a>
+        </div>
+
+        <div class="copyright">
+            © 2026 SportZone. Projeto escolar.
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
