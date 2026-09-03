@@ -5,254 +5,778 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SportZone - Notícias Esportivas</title>
+    <title>SportZone — O Poder do Esporte</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <div class="logo">
-            <span>SPORT</span>ZONE
-        </div>
+
+        <a href="#inicio" class="logo">
+            SPORT<span>ZONE</span>
+        </a>
 
         <nav>
             <a href="#inicio">Início</a>
             <a href="#esportes">Esportes</a>
-            <a href="#noticias">Notícias</a>
-            <a href="#jogadores">Jogadores</a>
+            <a href="#cultura">Cultura</a>
+            <a href="#impacto">Impacto</a>
             <a href="#historia">História</a>
+            <a href="#sociedade">Sociedade</a>
         </nav>
+
+        <a href="#explorar" class="header-botao">
+            EXPLORAR
+        </a>
+
     </header>
+
 
     <main>
 
+        <!-- HERO -->
+
         <section class="hero" id="inicio">
 
-            <div class="hero-text">
-                <p class="categoria">DESTAQUE DO DIA</p>
+            <div class="hero-conteudo">
+
+                <div class="hero-tag">
+                    <span></span>
+                    ESPORTE • CULTURA • SOCIEDADE
+                </div>
 
                 <h1>
-                    O mundo dos
-                    <span>esportes</span>
-                    em um só lugar.
+                    O esporte
+                    <strong>move</strong>
+                    o mundo.
                 </h1>
 
                 <p>
-                    Notícias, grandes atletas, curiosidades e a história
-                    dos esportes que fazem milhões de pessoas vibrar.
+                    Muito além de uma competição, o esporte
+                    influencia culturas, aproxima pessoas e
+                    ensina valores que levamos para toda a vida.
                 </p>
 
-                <a href="#noticias" class="botao">VER NOTÍCIAS</a>
+                <div class="hero-botoes">
+
+                    <a href="#esportes" class="botao-principal">
+                        CONHECER ESPORTES
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#impacto" class="botao-secundario">
+                        POR QUE ELE IMPORTA?
+                    </a>
+
+                </div>
+
             </div>
 
-            <div class="hero-card">
-                <div class="bola">🏀</div>
-                <p>PAIXÃO PELO ESPORTE</p>
-                <h2>Jogue.<br>Supere.<br>Vença.</h2>
+
+            <div class="hero-visual">
+
+                <div class="circulo"></div>
+
+                <div class="hero-numero">
+                    01
+                </div>
+
+                <div class="hero-card">
+
+                    <span>O PODER DO</span>
+
+                    <h2>
+                        ESPORTE
+                    </h2>
+
+                    <div class="linha"></div>
+
+                    <p>
+                        Uma linguagem capaz de
+                        atravessar fronteiras.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                SCROLL ↓
             </div>
 
         </section>
 
+
+        <!-- INTRODUÇÃO -->
+
+        <section class="introducao">
+
+            <div class="intro-numero">
+                01
+            </div>
+
+            <div class="intro-texto">
+
+                <p class="label">
+                    MAIS DO QUE UMA PRÁTICA
+                </p>
+
+                <h2>
+                    Por que o esporte
+                    é tão importante?
+                </h2>
+
+                <p>
+                    O esporte está presente em diferentes momentos
+                    da nossa vida. Ele pode ser praticado por diversão,
+                    competição, saúde ou simplesmente pela vontade
+                    de fazer parte de um grupo.
+                </p>
+
+                <p>
+                    Em todos esses casos, existe algo em comum:
+                    o esporte cria experiências que podem mudar
+                    a maneira como as pessoas enxergam a si mesmas
+                    e o mundo ao seu redor.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ESPORTES -->
 
         <section class="esportes" id="esportes">
 
-            <div class="titulo">
-                <p>MODALIDADES</p>
-                <h2>Explore os esportes</h2>
+            <div class="secao-topo">
+
+                <div>
+                    <p class="label">02 — MODALIDADES</p>
+
+                    <h2>
+                        Cada esporte tem
+                        sua própria identidade.
+                    </h2>
+                </div>
+
+                <p class="secao-descricao">
+                    Diferentes modalidades possuem regras,
+                    culturas e características próprias.
+                    Todas elas fazem parte do universo esportivo.
+                </p>
+
             </div>
+
 
             <div class="esportes-grid">
 
-                <div class="esporte-card futebol">
-                    <div class="icone">⚽</div>
-                    <h3>Futebol</h3>
-                    <p>O esporte mais popular do mundo.</p>
-                </div>
+                <article class="esporte-card destaque">
 
-                <div class="esporte-card basquete">
-                    <div class="icone">🏀</div>
-                    <h3>Basquete</h3>
-                    <p>Velocidade, habilidade e muita emoção.</p>
-                </div>
-
-                <div class="esporte-card volei">
-                    <div class="icone">🏐</div>
-                    <h3>Vôlei</h3>
-                    <p>Trabalho em equipe dentro da quadra.</p>
-                </div>
-
-                <div class="esporte-card formula">
-                    <div class="icone">🏎️</div>
-                    <h3>Fórmula 1</h3>
-                    <p>Velocidade e tecnologia nas pistas.</p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section class="noticias" id="noticias">
-
-            <div class="titulo">
-                <p>ATUALIZAÇÕES</p>
-                <h2>Últimas notícias</h2>
-            </div>
-
-            <div class="noticias-grid">
-
-                <article class="noticia destaque">
-                    <div class="noticia-imagem futebol-img">
-                        <span>FUTEBOL</span>
-                    </div>
-
-                    <div class="noticia-conteudo">
-                        <small>27 AGO 2026</small>
-                        <h3>
-                            Grandes novidades movimentam o mundo do futebol
-                        </h3>
-                        <p>
-                            Confira as principais informações e acontecimentos
-                            do mundo da bola.
-                        </p>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-
-                <article class="noticia">
-                    <div class="noticia-imagem basket-img">
-                        <span>BASQUETE</span>
-                    </div>
-
-                    <div class="noticia-conteudo">
-                        <small>26 AGO 2026</small>
-                        <h3>
-                            A nova geração que está brilhando nas quadras
-                        </h3>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-
-                <article class="noticia">
-                    <div class="noticia-imagem f1-img">
-                        <span>FÓRMULA 1</span>
-                    </div>
-
-                    <div class="noticia-conteudo">
-                        <small>25 AGO 2026</small>
-                        <h3>
-                            Velocidade máxima: confira as novidades da F1
-                        </h3>
-                        <a href="#">LER MAIS →</a>
-                    </div>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <section class="jogadores" id="jogadores">
-
-            <div class="titulo">
-                <p>ÍDOLOS DO ESPORTE</p>
-                <h2>Grandes jogadores</h2>
-            </div>
-
-            <div class="jogadores-grid">
-
-                <div class="jogador">
-                    <div class="jogador-foto jogador1">
+                    <div class="card-topo">
                         <span>01</span>
+                        <div class="icone">⚽</div>
                     </div>
 
-                    <div class="jogador-info">
-                        <p>BASQUETE</p>
-                        <h3>Michael Jordan</h3>
-                        <span>Chicago Bulls</span>
+                    <div class="card-conteudo">
+                        <p>MODALIDADE COLETIVA</p>
+                        <h3>Futebol</h3>
+
+                        <span class="card-linha"></span>
+
+                        <p>
+                            Um dos esportes mais populares do mundo,
+                            presente na cultura de diversos países.
+                        </p>
                     </div>
-                </div>
+
+                </article>
 
 
-                <div class="jogador">
-                    <div class="jogador-foto jogador2">
+                <article class="esporte-card">
+
+                    <div class="card-topo">
                         <span>02</span>
+                        <div class="icone">🏀</div>
                     </div>
 
-                    <div class="jogador-info">
-                        <p>FUTEBOL</p>
-                        <h3>Pelé</h3>
-                        <span>Brasil</span>
+                    <div class="card-conteudo">
+                        <p>MODALIDADE COLETIVA</p>
+                        <h3>Basquete</h3>
+
+                        <span class="card-linha"></span>
+
+                        <p>
+                            Velocidade, estratégia, criatividade
+                            e trabalho em equipe.
+                        </p>
                     </div>
-                </div>
+
+                </article>
 
 
-                <div class="jogador">
-                    <div class="jogador-foto jogador3">
+                <article class="esporte-card">
+
+                    <div class="card-topo">
                         <span>03</span>
+                        <div class="icone">🏐</div>
                     </div>
 
-                    <div class="jogador-info">
-                        <p>FUTEBOL</p>
-                        <h3>Lionel Messi</h3>
-                        <span>Argentina</span>
+                    <div class="card-conteudo">
+                        <p>MODALIDADE COLETIVA</p>
+                        <h3>Vôlei</h3>
+
+                        <span class="card-linha"></span>
+
+                        <p>
+                            Comunicação e cooperação são fundamentais
+                            para alcançar um objetivo.
+                        </p>
                     </div>
+
+                </article>
+
+
+                <article class="esporte-card">
+
+                    <div class="card-topo">
+                        <span>04</span>
+                        <div class="icone">🏃</div>
+                    </div>
+
+                    <div class="card-conteudo">
+                        <p>MODALIDADE INDIVIDUAL</p>
+                        <h3>Atletismo</h3>
+
+                        <span class="card-linha"></span>
+
+                        <p>
+                            Reúne velocidade, força, resistência
+                            e diferentes formas de superação.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CULTURA -->
+
+        <section class="cultura" id="cultura">
+
+            <div class="cultura-visual">
+
+                <div class="visual-numero">
+                    02
                 </div>
 
+                <div class="visual-texto">
+                    <span>ESPORTE</span>
+                    <strong>+</strong>
+                    <span>CULTURA</span>
+                </div>
 
-                <div class="jogador">
-                    <div class="jogador-foto jogador4">
-                        <span>04</span>
+            </div>
+
+
+            <div class="cultura-conteudo">
+
+                <p class="label">
+                    03 — CULTURA
+                </p>
+
+                <h2>
+                    O esporte também
+                    conta quem somos.
+                </h2>
+
+                <p>
+                    Cada sociedade possui maneiras diferentes
+                    de se relacionar com o esporte. Torcidas,
+                    uniformes, músicas, rituais e grandes eventos
+                    fazem parte dessa relação.
+                </p>
+
+                <p>
+                    Por isso, entender o esporte também é uma forma
+                    de entender a cultura de um povo.
+                </p>
+
+
+                <div class="cultura-dados">
+
+                    <div>
+                        <strong>01</strong>
+                        <span>TRADIÇÃO</span>
                     </div>
 
-                    <div class="jogador-info">
-                        <p>BASQUETE</p>
-                        <h3>LeBron James</h3>
-                        <span>NBA</span>
+                    <div>
+                        <strong>02</strong>
+                        <span>IDENTIDADE</span>
                     </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>UNIÃO</span>
+                    </div>
+
                 </div>
 
             </div>
 
         </section>
 
+
+        <!-- IMPACTO -->
+
+        <section class="impacto" id="impacto">
+
+            <div class="secao-topo">
+
+                <div>
+                    <p class="label">04 — IMPACTO NAS PESSOAS</p>
+
+                    <h2>
+                        O que aprendemos
+                        através do esporte?
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="impacto-grid">
+
+                <article class="impacto-card">
+
+                    <span>01</span>
+
+                    <div class="impacto-icone">
+                        ◈
+                    </div>
+
+                    <h3>Disciplina</h3>
+
+                    <p>
+                        Aprender a manter uma rotina,
+                        respeitar horários e continuar
+                        mesmo quando algo fica difícil.
+                    </p>
+
+                </article>
+
+
+                <article class="impacto-card">
+
+                    <span>02</span>
+
+                    <div class="impacto-icone">
+                        ◎
+                    </div>
+
+                    <h3>Confiança</h3>
+
+                    <p>
+                        A evolução durante a prática pode
+                        ajudar a desenvolver confiança
+                        e autonomia.
+                    </p>
+
+                </article>
+
+
+                <article class="impacto-card">
+
+                    <span>03</span>
+
+                    <div class="impacto-icone">
+                        △
+                    </div>
+
+                    <h3>Trabalho em equipe</h3>
+
+                    <p>
+                        Jogar com outras pessoas ensina
+                        comunicação, respeito e cooperação.
+                    </p>
+
+                </article>
+
+
+                <article class="impacto-card">
+
+                    <span>04</span>
+
+                    <div class="impacto-icone">
+                        +
+                    </div>
+
+                    <h3>Superação</h3>
+
+                    <p>
+                        Erros e derrotas podem fazer parte
+                        do processo de aprender e evoluir.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ESTATÍSTICAS -->
+
+        <section class="estatisticas">
+
+            <div class="estatistica">
+
+                <strong>01</strong>
+
+                <span>
+                    ESPORTE COMO
+                    EXPERIÊNCIA
+                </span>
+
+            </div>
+
+            <div class="estatistica">
+
+                <strong>02</strong>
+
+                <span>
+                    CULTURA COMO
+                    IDENTIDADE
+                </span>
+
+            </div>
+
+            <div class="estatistica">
+
+                <strong>03</strong>
+
+                <span>
+                    PESSOAS COMO
+                    PROTAGONISTAS
+                </span>
+
+            </div>
+
+            <div class="estatistica">
+
+                <strong>04</strong>
+
+                <span>
+                    SOCIEDADE COMO
+                    COMUNIDADE
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- HISTÓRIA -->
 
         <section class="historia" id="historia">
 
             <div class="historia-texto">
 
-                <p>DESDE O COMEÇO</p>
+                <p class="label">
+                    05 — HISTÓRIA
+                </p>
 
                 <h2>
-                    A história por trás
-                    dos grandes esportes.
+                    Uma história
+                    que começou
+                    há milhares
+                    de anos.
                 </h2>
 
                 <p>
-                    O esporte acompanha a humanidade há milhares de anos.
-                    Desde as antigas competições até os grandes eventos
-                    atuais, ele se tornou uma parte importante da cultura
-                    de diferentes países.
+                    A prática esportiva acompanha a humanidade
+                    desde as antigas civilizações. Com o tempo,
+                    diferentes atividades foram transformadas
+                    em modalidades com regras e competições.
                 </p>
 
                 <p>
-                    Mais do que competição, o esporte representa disciplina,
-                    dedicação, trabalho em equipe e superação.
+                    Hoje, o esporte está presente em praticamente
+                    todos os lugares do mundo.
                 </p>
 
             </div>
 
-            <div class="historia-numero">
-                <strong>01</strong>
-                <span>HISTÓRIA</span>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <span>776 a.C.</span>
+
+                    <div>
+                        <h3>Antiguidade</h3>
+
+                        <p>
+                            Competições esportivas já faziam
+                            parte de importantes celebrações.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span>1896</span>
+
+                    <div>
+                        <h3>Jogos Olímpicos modernos</h3>
+
+                        <p>
+                            O movimento olímpico moderno
+                            ganhou uma nova dimensão internacional.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span>HOJE</span>
+
+                    <div>
+                        <h3>Fenômeno mundial</h3>
+
+                        <p>
+                            Esportes conectam culturas,
+                            países e milhões de pessoas.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOCIEDADE -->
+
+        <section class="sociedade" id="sociedade">
+
+            <div class="sociedade-cabecalho">
+
+                <p class="label">06 — ESPORTE & SOCIEDADE</p>
+
+                <h2>
+                    Quando pessoas
+                    diferentes encontram
+                    um mesmo objetivo.
+                </h2>
+
+            </div>
+
+
+            <div class="sociedade-grid">
+
+                <article class="sociedade-card grande">
+
+                    <div class="sociedade-numero">
+                        01
+                    </div>
+
+                    <div>
+                        <span>INCLUSÃO</span>
+
+                        <h3>
+                            O esporte pode
+                            criar espaços
+                            para todos.
+                        </h3>
+
+                        <p>
+                            Projetos esportivos e atividades
+                            coletivas podem aproximar pessoas
+                            de diferentes origens e realidades.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="sociedade-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Educação
+                    </h3>
+
+                    <p>
+                        A prática esportiva pode contribuir
+                        para o desenvolvimento de valores,
+                        responsabilidades e convivência.
+                    </p>
+
+                </article>
+
+
+                <article class="sociedade-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Comunidade
+                    </h3>
+
+                    <p>
+                        Clubes, equipes e espaços esportivos
+                        podem criar vínculos entre pessoas.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ATLETAS -->
+
+        <section class="atletas" id="explorar">
+
+            <div class="secao-topo">
+
+                <div>
+
+                    <p class="label">07 — GRANDES REFERÊNCIAS</p>
+
+                    <h2>
+                        Pessoas que
+                        marcaram o esporte.
+                    </h2>
+
+                </div>
+
+                <p class="secao-descricao">
+                    Alguns atletas se tornaram referências
+                    não apenas por seus resultados, mas também
+                    pelo impacto que tiveram dentro e fora
+                    de suas modalidades.
+                </p>
+
+            </div>
+
+
+            <div class="atletas-grid">
+
+                <article class="atleta">
+
+                    <div class="atleta-topo">
+                        <span>01</span>
+                        <span>FUTEBOL</span>
+                    </div>
+
+                    <div class="atleta-info">
+                        <h3>Pelé</h3>
+                        <p>Brasil</p>
+                    </div>
+
+                </article>
+
+
+                <article class="atleta">
+
+                    <div class="atleta-topo">
+                        <span>02</span>
+                        <span>BASQUETE</span>
+                    </div>
+
+                    <div class="atleta-info">
+                        <h3>Michael Jordan</h3>
+                        <p>Estados Unidos</p>
+                    </div>
+
+                </article>
+
+
+                <article class="atleta">
+
+                    <div class="atleta-topo">
+                        <span>03</span>
+                        <span>TÊNIS</span>
+                    </div>
+
+                    <div class="atleta-info">
+                        <h3>Serena Williams</h3>
+                        <p>Estados Unidos</p>
+                    </div>
+
+                </article>
+
+
+                <article class="atleta">
+
+                    <div class="atleta-topo">
+                        <span>04</span>
+                        <span>ATLETISMO</span>
+                    </div>
+
+                    <div class="atleta-info">
+                        <h3>Usain Bolt</h3>
+                        <p>Jamaica</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+
+        <section class="final">
+
+            <div class="final-numero">
+                08
+            </div>
+
+            <div class="final-conteudo">
+
+                <p class="label">
+                    UMA NOVA FORMA DE OLHAR
+                </p>
+
+                <h2>
+                    O esporte não é
+                    apenas sobre vencer.
+                </h2>
+
+                <p>
+                    É sobre pessoas, histórias, culturas,
+                    desafios e experiências que continuam
+                    muito depois do fim de uma partida.
+                </p>
+
+                <a href="#inicio" class="botao-principal">
+                    VOLTAR AO INÍCIO
+                    <span>↑</span>
+                </a>
+
             </div>
 
         </section>
@@ -262,27 +786,38 @@
 
     <footer>
 
-        <div class="footer-logo">
-            SPORT<span>ZONE</span>
-        </div>
+        <div class="footer-principal">
 
-        <p>
-            Informação, história e paixão pelo esporte.
-        </p>
+            <div>
 
-        <div class="footer-links">
-            <a href="#inicio">Início</a>
-            <a href="#esportes">Esportes</a>
-            <a href="#noticias">Notícias</a>
-            <a href="#jogadores">Jogadores</a>
-        </div>
+                <a href="#inicio" class="logo">
+                    SPORT<span>ZONE</span>
+                </a>
 
-        <div class="copyright">
-            © 2026 SportZone. Projeto escolar.
-        </div>
+                <p>
+                    Um espaço para descobrir o esporte
+                    além das competições.
+                </p>
 
-    </footer>
+            </div>
 
-</body>
 
-</html>
+            <div class="footer-menu">
+
+                <span>NAVEGAÇÃO</span>
+
+                <a href="#inicio">Início</a>
+                <a href="#esportes">Esportes</a>
+                <a href="#cultura">Cultura</a>
+                <a href="#impacto">Impacto</a>
+                <a href="#historia">História</a>
+
+            </div>
+
+
+            <div class="footer-menu">
+
+                <span>EXPLORE</span>
+
+                <a href="#sociedade">Sociedade</a>
+                <a href="#explorar">Atletas</a>
